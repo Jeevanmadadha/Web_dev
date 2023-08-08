@@ -1,0 +1,256 @@
+.main{
+  width: 100%;
+}
+.login-text {
+  font-size: 60px;
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-weight: bold;
+  color: rgb(49, 48, 70);
+  width: 100%;
+  height: 80px;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.account a{
+  color: rgb(65, 109, 228);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.no-account-text {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.account{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -60px;
+}
+.main-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.manual-login-layout {
+  display: inline-block;
+  width: 300px;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.top-divider{
+  height: 80px;
+  width: 1px;
+  border: 0;
+  border-left: solid rgb(198, 194, 194);
+  border-width: 1px;
+}
+.or-label {
+  color: rgb(198, 194, 194);
+}
+.auto-login-layout {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+}
+.email-layout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  position: relative;
+  padding: 15px 0 0;
+}
+.email-bar {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  outline: 0;
+  background: transparent;
+}
+.email-bar::placeholder {
+  color: transparent;
+}
+.email-label {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.email-bar:placeholder-shown ~ .email-label {
+  top: 16px;
+}
+.checkbox-layout {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-left: 0;
+}
+.remember-me-text {
+  font-size: 12px;
+  margin-right: 110px;
+  cursor: pointer;
+
+}
+.forgot-text {
+  font-size: 12px;
+  margin-right: 0;
+  cursor: pointer;
+}
+.forgot-text:hover {
+  color: rgb(65, 109, 228);
+}
+.checkbox {
+  height: 12px;
+  width: 12px;
+  margin-left: 0;
+  vertical-align: top;
+}
+
+.email-button {
+  margin-top: 40px;
+  font-size: 16px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgb(27, 115, 239);
+  color: rgb(27, 115, 239);
+  background-color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.email-button:hover{
+  background-color: blue;
+  color: white;
+}
+.google-button-layout {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.google-logo {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  height: 38.5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(28, 93, 232);
+}
+.google-img {
+  width: 15px;
+}
+.google-button {
+  width: 85%;
+  color: white;
+  background-color: rgb(28, 93, 232);
+  font-size: 12px;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+  
+}
+.facebook-button-layout {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.facebook-logo {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  height: 38.5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(27, 53, 108);
+}
+.facebook-img {
+  width: 10px;
+}
+.facebook-button {
+  color: white;
+  width: 85%;
+  background-color: rgb(27, 53, 108);
+  font-size: 12px;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+
+}
+.apple-button-layout {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.apple-logo {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  height: 38.5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:black;
+}
+.apple-img {
+  width: 15px;
+}
+.apple-button {
+  width: 85%;
+  color: black;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 500;
+  border-width: 1px;
+  border-left: 0;
+  border-color: black;
+  border-left: -1px;
+  cursor: pointer;
+
+}
+.sso-text {
+  color: rgb(65, 109, 228);
+  cursor: pointer;
+}
+.terms-text{
+  cursor: pointer;
+  color: rgb(74, 72, 72);
+}
+.privacy-text {
+  /* margin-left: 30px; */
+  cursor: pointer;
+  color: rgb(74, 72, 72);
+}
+.tnp{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.privacy-text2 {
+  cursor: pointer;
+  color: rgb(74, 72, 72);
+}
+.Terms2{
+  display: flex;
+  justify-content: center;
+}
+

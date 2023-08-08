@@ -1,0 +1,197 @@
+.header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+    
+
+}
+.left-section{
+    display: flex;
+    align-items: center;  
+}
+.icon{
+    width: 40px;
+    margin-left:90px;
+    margin-right: 5px;
+}
+.logo{
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    cursor: pointer;
+}
+.middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    padding: 16px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px lightgray;
+}
+.search-bar::placeholder{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.search-btn{
+    background-color:transparent;
+    border: none;
+    padding: 0;
+    margin-left: -45px;
+    display: flex;
+    width: 50px;
+    align-items: center;
+}
+.search-icon{
+    width: 35px;
+    border-radius:100px;
+    /* position: absolute; */
+}
+.right-section{
+    width: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.signup-btn {
+    width: 150px;
+    height: 40px;
+    padding: 15px auto;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: lightgray;
+    cursor: pointer;
+    position: relative;
+    /* overflow: hidden; */
+}
+  
+.cover{
+    background: black;
+    color: white;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+button:hover span {
+    width: 100%;
+}
+button:hover {
+    border: none;
+}
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 22px;
+    position: sticky;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    top: 80px;
+    height: 30px;
+}
+.place-container{
+    padding: 0 72px;
+    display: flex;
+    overflow-x: auto;
+    right: 20px;
+    left: 20px;
+    gap: 70px;
+    margin-top: -10px;
+    scroll-behavior: smooth;
+}
+.place-container::-webkit-scrollbar{
+    display: none;
+}
+.place-logo-card{
+    flex: 0 0 auto;
+    width: 30px;
+    /* opacity: 0.5; */
+}
+.place-img{
+    width: 100%;
+}
+.place-thumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.place-info{
+    width: 100%;
+    margin-top: -12px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.place-name{
+    font-size: 15px;
+    align-content: center;
+    /* opacity: 0.5; */
+}
+.link{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+.link.active{
+    opacity: 1;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%); */
+  cursor: pointer;
+  z-index: 8;
+}
+.btn-img{
+    width: 30px;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+.nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 1;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
